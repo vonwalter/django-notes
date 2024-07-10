@@ -89,7 +89,7 @@ else:
     DATABASES = {
     'default': dj_database_url.config(
         # Replace this value with your local database's connection string.
-        default='postgresql://postgres:postgres@localhost:5432/mysite',
+        default='postgresql://tareas:FCOhS3jipnVSTpOIE60ESukGOcZc7bdk@dpg-cq7grdjv2p9s73c4eh9g-a.oregon-postgres.render.com/tareas_k1qv',
         conn_max_age=600
     )
     }
