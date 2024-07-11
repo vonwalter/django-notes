@@ -17,7 +17,7 @@ services:
           name: tareasdb
           property: connectionString
       - key: SECRET_KEY
-        generateValue: true
+        generateValue: True
       - key: WEB_CONCURRENCY
         value: 4
         - key: DJANGO_SUPERUSER_USERNAME
